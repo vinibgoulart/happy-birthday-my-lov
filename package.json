@@ -7,11 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy":"npm run build && git add dist -f && git commit -m'hosting'  && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && git add dist -f && git commit -m'hosting'  && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-date-countdown-timer": "^1.1.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

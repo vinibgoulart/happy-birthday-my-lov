@@ -1,4 +1,4 @@
-import DateCountdown from "react-date-countdown-timer";
+import { DateCountdown } from "./counter";
 
 function App() {
   return (

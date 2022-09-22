@@ -1,16 +1,18 @@
-import { DateCountdown } from "./counter";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { CounterDate } from "./CounterDate";
+import { HappyBirthday } from "./HappyBirthday";
 
-function App() {
+export default function App() {
   return (
-    <div className="timer">
-      <div>&#129505; &#129310;</div>
-      <DateCountdown
-        dateTo="September 24, 2022 00:00:00 GMT-03:00"
-        callback={() => alert("Hello")}
-      />
-      <div>&#129310; &#129505;</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/happy-birthday-my-lov/" element={<CounterDate />} />
+        <Route
+          path="/happy-birthday-my-lov/congratulations"
+          element={<HappyBirthday />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

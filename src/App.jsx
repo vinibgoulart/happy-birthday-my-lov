@@ -6,11 +6,8 @@ import { HappyBirthday } from "./HappyBirthday";
 export default function App() {
   return (
     <Routes>
-      <Route path="/happy-birthday-my-lov" element={<CounterDate />} />
-      <Route
-        path="/happy-birthday-my-lov/congratulations"
-        element={<HappyBirthday />}
-      />
+      <Route path="/" element={<CounterDate />} />
+      <Route path="/congratulations" element={<HappyBirthday />} />
     </Routes>
   );
 }

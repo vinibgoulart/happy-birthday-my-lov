@@ -99,6 +99,10 @@ const contents = [
     "./34.jpg",
     "Feliz aniversario meu amor! Eu sempre vou estar cntg nos momentos que tu permitir, e quero estar presente em todos os teus mais felizes. Conta comigo pra sempre, tu mora no meu coração e nunca vai sair. Te quero no meu futuro, quando a gente ter que acordar pra trabalhar, chegar do serviço cansado, e só aproveitar por estarmos juntinhos! Te amo muito mais que o infiito, teu sorriso, teu cheiro, teu jeito, tua voz, teu corpo, teu cabelo, teu beijo, tudo em ti é perfeito e sou completamente caidinho por ti. Aproveita teu dia e juizo que agora pode ser presa por me agredir! kkkkk",
   ],
+  [
+    "./34.jpg",
+    "Feliz aniversario meu amor! Eu sempre vou estar cntg nos momentos que tu permitir, e quero estar presente em todos os teus mais felizes. Conta comigo pra sempre, tu mora no meu coração e nunca vai sair. Te quero no meu futuro, quando a gente ter que acordar pra trabalhar, chegar do serviço cansado, e só aproveitar por estarmos juntinhos! Te amo muito mais que o infiito, teu sorriso, teu cheiro, teu jeito, tua voz, teu corpo, teu cabelo, teu beijo, tudo em ti é perfeito e sou completamente caidinho por ti. Aproveita teu dia e juizo que agora pode ser presa por me agredir! kkkkk",
+  ],
 ];
 
 export function HappyBirthday() {
